@@ -1,0 +1,94 @@
+{
+  "global": {
+    "name": "News Republic",
+    "product_name": "News Republic",
+    "url": "http://10.60.80.70/cmnewsindia/appy4-android/",
+    "inner_path": "/bin1/apk/",
+    "folder_re": "\\d{8}.\\d{1,3}",
+    "datetime_re": "\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2}",
+    "apk_re": "appy4_\\d{5}_gp.apk"
+  },
+  "india": {
+    "name": "News Republic India",
+    "product_name": "News Republic India",
+    "url": "http://10.60.80.70/cmnewsindia/cm_newsindia/",
+    "inner_path": "bin1/apk/",
+    "folder_re": "\\d{8}.\\d{1,3}",
+    "datetime_re": "\\d{2}-\\w{3}-\\d{4} \\d{2}:\\d{2}",
+    "apk_re": "ONews_\\d{8}_gp.apk"
+  },
+  "us": {
+    "name": "News Republic US",
+    "product_name": "News Republic US",
+    "url": "http://10.60.80.70/cmnewsindia/cm_newsindia_2.0.2_dev_fb/",
+    "inner_path": "bin1/apk/",
+    "folder_re": "\\d{8}.\\d{1,3}",
+    "datetime_re": "\\d{2}-\\w{3}-\\d{4} \\d{2}:\\d{2}",
+    "apk_re": "ONews_\\d{8}_gp.apk"
+  },
+  "WhatCall": {
+    "name": "WhatCall",
+    "product_name": "WhatCall",
+    "url": "10.60.82.176",
+    "username": "freecall",
+    "password": "cheapcall",
+    "folder_re": "WhatsCall_Lite_\\d[.]\\d[.]\\d",
+    "apk_re": "whatscall-\\d[.]\\d[.]\\d[.]\\d{0,9}-official_signed_aligned.apk"
+  },
+  "launcher": {
+    "name": "launcher",
+    "url": "10.60.118.13",
+    "username": "cmtest",
+    "password": "cmtest",
+    "apk_path": "MemoryOutPut/MemoryOutPut/com.ksmobile.launcher/install/",
+    "product_name": "Launcher",
+    "packagename": "com.ksmobile.launcher",
+    "apk_re": "(launcher.*?apk)",
+    "activitylist": "launcher_activitylist"
+  },
+  "PandaKeyboard": {
+    "name": "PandaKeyboard",
+    "product_name": "Keyboard",
+    "packagename": "panda.keyboard.emoji.theme",
+    "launch_activity": "cmcm.wizard.SetupActivity"
+  },
+  "LiveMe": {
+    "name": "LiveMe",
+    "product_name": "liveme",
+    "packagename": "com.cmcm.live",
+    "activitylist": "liveme_activitylist"
+  },
+  "PhotoGrid": {
+    "product_name": "PhotoGrid",
+    "name": "PhotoGrid",
+    "activitylist": "photogrid_activitylist"
+  },
+  "cmfinance": {
+    "product_name": "cmfinance",
+    "name": "cmfinance"
+  },
+  "doctor_battery": {
+    "product_name": "doctor_battery",
+    "name": "doctor_battery"
+  },
+  "Cheez": {
+    "product_name": "Cheez",
+    "name": "Cheez"
+  },
+  "textone": {
+    "name": "textone",
+    "packagename": "com.cmcm.textone",
+    "product_name": "TextOne"
+  },
+  "CleanMaster": {
+    "name": "CleanMaster",
+    "product_name": "CleanMaster",
+    "activitylist": "CleanMaster_activitylist"
+  },
+  "LINK": {
+    "name": "LINK",
+    "product_name": "LINK",
+    "usr_id" :"20015594",
+    "usr_pwd" :"1"
+  }
+}
